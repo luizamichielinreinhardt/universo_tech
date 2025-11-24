@@ -59,10 +59,10 @@
   }
   .nav-links li a {
     color: #fff;
-    text-decoration: none;
     font-weight: bold;
     font-size: 20px;
     transition: color 0.3s;
+    
   }
   .nav-links li a:hover {
     color: #7177C5; 
@@ -153,12 +153,12 @@
 
 .card-info {
     background: #f5f3f3;
-    width: 700px;
+    width: 300px;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 12px 12px rgba(0,0,0,0.1);
     transition: transform .2s;
-    margin-left: 45px;
+    margin-left: 30px;
 }
 
 .card-info:hover {
@@ -177,5 +177,3 @@
 .card-info ul {
     padding-left: 20px;
 }
-
-
