@@ -17,26 +17,24 @@
   width: 100%;
   position: relative;
   margin: 0; 
-  padding: 0; 
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   background-size: cover;
   background-position: center;
 }
-.hero .slide {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50%;
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
-}
 .hero-text {
   text-align: center;
   color: white;
+  position: relative;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 17.5px;
+}
+.hero-text p {
+  margin: 10px 0 40px;
 }
 .navbar {
   background-color: #251042;
@@ -44,6 +42,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 40px;
+  font-size: 17.5px;
 }
 .logo-img {
   height: 90px;
@@ -61,27 +60,46 @@
   color: #fff;
   text-decoration: none;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 17.5px;
   transition: color 0.3s;
 }
 .nav-links li a:hover {
   color: #7177C5; 
 }
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-links a:hover {
+  color: #7177c5;
+}
+.hero .slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
 body {
-  line-height: 1.6;
+  line-height: 15px;
   background-color: #d3d3d3;
-  color: #251042;
+  color: #251042; 
 }
 header {
   background: #251042;
   color: #d3d3d3;
-  
+  padding: 15px 30px;                                      
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: sticky;
   top: 0;
   z-index: 1000;
+  font-size: 60px;
 }
 .novidades-hero {
   height: 10hv;
@@ -91,6 +109,23 @@ header {
 }
 .p{
   font-size: 10px;
+  margin-right: 40px;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+.navbar ul li {
+  margin: 15px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.navbar ul li a:hover {
+  color: #76237b;
 }
 footer{
   background: #251042;
@@ -98,4 +133,42 @@ footer{
   text-align: center;
   padding: 20px;
   margin-top: 40px;
+}
+.imagens {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.imagens img {
+    width: 120px; 
+    height: auto;
+    border-radius: 10px;
+}
+.novidades-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    justify-content: center;
+}
+
+.novidades-container {
+  
+    max-width: 800px;
+    margin: 20px ;
+    padding: 20px 60px;
+    background-color: white;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    line-height: 1.4;
+}
+
+
+.imagens img {
+    width: 400px;
+    border-radius: 10px;
+    margin-right: 19px;
+
 }
