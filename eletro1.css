@@ -1,4 +1,5 @@
 /* Cores usadas:
+  /* Cores usadas:
   --black: #000000;
   --dark-purple: #251042;
   --blue: #7177C5;
@@ -59,10 +60,10 @@
   }
   .nav-links li a {
     color: #fff;
-    text-decoration: none;
     font-weight: bold;
     font-size: 20px;
     transition: color 0.3s;
+    
   }
   .nav-links li a:hover {
     color: #7177C5; 
@@ -153,7 +154,7 @@
 
 .card-info {
     background: #f5f3f3;
-    width: 450px;
+    width: 300px;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 12px 12px rgba(0,0,0,0.1);
