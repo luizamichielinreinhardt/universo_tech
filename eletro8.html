@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculos eletrônica | UNIVERSO TECH</title>
+  <link rel="stylesheet" href="eletro8.css">
+  <link rel="icon" type="image/x-icon" href="./logos/logo_flavicon.png">
+</head>
+
+<body>
+  <!-- Cabeçalho e menu -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="./logos/logo_site.png" alt="Logo" class="logo-img">
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="eletro.html"style="color: #fff; margin-left: 30px;text-decoration: underline;">Voltar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Seção de destaque -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Script para cálculo da tensão, corrente, resistência pela Lei de Ohm</h1><br><br>      
+    <br><br><br>
+    </div>
+  </section>
+
+<section class="novidades-section"><br>
+    <div class="novidades-wrapper">
+      <div class="novidades-container">
+        <h2>Cálculo da tensão, corrente, resistência pela Lei de Ohm:</h2>
+       <br>
+
+
+        <div class="container-cards">
+
+    <!-- CARD 1 - Placa Mãe -->
+    <div class="card-info">
+        <img src="./fotos_eletro/tensao.png" alt="Placa Mãe">
+
+        <h3>Exemplo:</h3><br>
+        <ul>
+            <li>Se I = 2 A e R = 10 Ω, então:
+V = 2 × 10 = 20 V.</li>
+           
+        </ul>
+    </div>
+
+    <!-- CARD 2 - Processador -->
+    <div class="card-info">
+        <img src="./fotos_eletro/corrente.png" alt="Processador">
+             
+        <h3>Exemplo:</h3><br>
+        <ul>
+            <li>Se V = 12 V e R = 6 Ω, então:
+I = 12 / 6 = 2 A</li>
+           
+        </ul>
+    </div>
+   
+
+    <div class="card-info">
+        <img src="./fotos_eletro/resistencia.png" alt="Memoria">
+
+        <h3>Exemplo:</h3><br>
+        <ul>
+            <li>Se V = 9 V e I = 3 A, então:
+R = 9 / 3 = 3 Ω</li>   
+        </ul>
+      </div>
+   <br><br><br>
+
+    <div class="card-info">
+        <h1>Calculadora – Lei de Ohm</h1>
+        <p>Deixe um dos campos vazio para calcular automaticamente.</p>
+
+        <div class="form-group">
+            <label for="tensao">Tensão (V):</label>
+            <input type="number" id="tensao" placeholder="Ex: 12"style="
+   
+    font-size: 18px;">
+        </div>
+
+        <div class="form-group">
+            <label for="corrente">Corrente (A):</label>
+            <input type="number" id="corrente" placeholder="Ex: 2"style="
+    
+    font-size: 18px;">
+        </div>
+
+        <div class="form-group">
+            <label for="resistencia">Resistência (Ω):</label>
+            <input type="number" id="resistencia" placeholder="Ex: 6"style="
+
+    font-size: 18px;">
+        </div>
+
+        <button onclick="calcularOhm()">Calcular</button>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="eletro8.js"></script>
+    
+    
+    <div class="card-info">
+      <h3>Foto do código da calculadora:</h3><br>
+      <img src="./fotos_eletro/captura.codigo.png" alt="Memoria">
+    
+    
+      </div>
+
+
+    <div class="card-info">
+      <h3>Vídeo Explicativo sobre os cálculos:</h3><br>
+         <video src="./videos/video_lei_de_ohm.mp4" controls autoplay muted loop style=" border-radius: 10px; width: 420px;">
+        </video><br><br>
+      
+      </div>
+
+
+
+
+
+    <br>
+  <br></div><br><br>
+</div> 
+
+  <!-- footer -->
+  <footer>
+    <p>© 2025 UNIVERSO TECH — Marca Registrada. Todos os direitos reservados.</p>
+    <p>By Luiza Michielin Reinhardt &copy; &trade;
+      <a href="http://instagram.com/lu.michielin/">
+        <img src="./logos/rdsocial_img.png" alt="Logo insta" style="height: 40px;">
+      </a>
+    </p>
+  </footer>
+</body>
+</html>
