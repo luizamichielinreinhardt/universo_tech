@@ -2,6 +2,7 @@
  Funções básicas (itens 5 a 12)
 ============================ */
 
+
 // 5 - ordenar 1..20
 function ordenarCrescente() {
   let nums = [];

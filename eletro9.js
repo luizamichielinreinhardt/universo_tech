@@ -16,7 +16,7 @@ function calcularPotencia() {
     // Se não tiver tensão, mas tiver corrente e resistência
     else if (!isNaN(corrente) && !isNaN(resistencia)) {
         potencia = corrente * corrente * resistencia;
-    }
+    } 
 
     // Exibe o resultado
     if (potencia !== null) {

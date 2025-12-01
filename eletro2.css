@@ -19,7 +19,7 @@
     position: relative;
     margin: 0; 
     padding: 0; 
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./logos/img3_section.jpg');  

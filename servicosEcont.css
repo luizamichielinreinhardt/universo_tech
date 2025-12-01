@@ -20,7 +20,7 @@
   }
   .hero-text {
     position: relative;
-    z-index: 2;
+    z-index: 2; 
     color: #fff;
     text-align: center;
     top: 50%;

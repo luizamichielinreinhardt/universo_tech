@@ -14,5 +14,6 @@ function nextSlide() {
   currentSlide = (currentSlide + 1) % slides.length;
   showSlide(currentSlide);
 }
+
 setInterval(nextSlide, 5000);
 showSlide(currentSlide);
