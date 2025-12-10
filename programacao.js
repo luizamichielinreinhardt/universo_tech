@@ -9,6 +9,7 @@ function ordenarCrescente() {
   for (let i = 1; i <= 20; i++) nums.push(i);
   return nums;
 }
+
 function ordenarDecrescente() {
   let nums = [];
   for (let i = 20; i >= 1; i--) nums.push(i);
